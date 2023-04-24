@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+.content
+{
+  width: 100%;
+  background-color: rgb(219, 247, 240);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left1
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.content1
+{
+  width: 60%;
+  margin-left: 10%;
+  padding-top: 6%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content1 h4
+{
+  padding-top: 10%;
+  font-size: 32px;
 }
+
+.content1 p
+{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.content1 a
+{
+  font-weight: bold;
+  color: black;
+}
+
+.img1 img
+{
+  width: 75%;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+
+.left2
+{
+  display: flex;
+}
+
+.content2
+{
+  width: 60%;
+  margin-left: 10%;
+  padding-top: 10%;
+}
+
+
+.content2 h4
+{
+  font-size: 32px;
+}
+
+.content2 p
+{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.content2 a
+{
+  font-weight: bold;
+  color: black;
+}
+
+.img2 img
+{
+  width: 75%;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.left3
+{
+  display: flex;
+}
+
+.content3
+{
+  width: 60%;
+  margin-left: 10%;
+  padding-top: 7%;
+}
+
+
+.content3 h4
+{
+  font-size: 32px;
+}
+
+.content3 p
+{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.content3 a
+{
+  font-weight: bold;
+  color: black;
+}
+
+.img3 img
+{
+  width: 75%;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
